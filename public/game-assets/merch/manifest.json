@@ -1,0 +1,20 @@
+{
+  "chocolate-bar": {
+    "width": 256,
+    "height": 85,
+    "sourceBytes": 623461,
+    "runtimeBytes": 15253
+  },
+  "blue-cap": {
+    "width": 256,
+    "height": 237,
+    "sourceBytes": 960110,
+    "runtimeBytes": 58450
+  },
+  "sage-cap": {
+    "width": 256,
+    "height": 221,
+    "sourceBytes": 719236,
+    "runtimeBytes": 39712
+  }
+}

@@ -1,0 +1,1462 @@
+{
+  "frameWidth": 384,
+  "frameHeight": 384,
+  "origin": [
+    0.5,
+    0.9583333333333334
+  ],
+  "characters": [
+    {
+      "id": "01-blond-tie",
+      "portraitId": "portrait-01-blond-tie",
+      "sheet": "sheets/01-blond-tie.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/01-blond-tie/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/01-blond-tie/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/01-blond-tie/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/01-blond-tie/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/01-blond-tie/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/01-blond-tie/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/01-blond-tie/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/01-blond-tie/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/01-blond-tie/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/01-blond-tie/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/01-blond-tie/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/01-blond-tie/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "02-navy-blazer",
+      "portraitId": "portrait-02-navy-blazer",
+      "sheet": "sheets/02-navy-blazer.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/02-navy-blazer/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/02-navy-blazer/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/02-navy-blazer/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/02-navy-blazer/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/02-navy-blazer/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/02-navy-blazer/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/02-navy-blazer/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/02-navy-blazer/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/02-navy-blazer/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/02-navy-blazer/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/02-navy-blazer/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/02-navy-blazer/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "03-plaid",
+      "portraitId": "portrait-03-plaid",
+      "sheet": "sheets/03-plaid.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/03-plaid/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/03-plaid/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/03-plaid/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/03-plaid/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/03-plaid/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/03-plaid/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/03-plaid/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/03-plaid/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/03-plaid/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/03-plaid/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/03-plaid/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/03-plaid/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "04-bald-glasses",
+      "portraitId": "portrait-04-bald-glasses",
+      "sheet": "sheets/04-bald-glasses.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/04-bald-glasses/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/04-bald-glasses/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/04-bald-glasses/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/04-bald-glasses/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/04-bald-glasses/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/04-bald-glasses/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/04-bald-glasses/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/04-bald-glasses/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/04-bald-glasses/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/04-bald-glasses/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/04-bald-glasses/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/04-bald-glasses/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "05-floral",
+      "portraitId": "portrait-05-floral",
+      "sheet": "sheets/05-floral.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/05-floral/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/05-floral/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/05-floral/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/05-floral/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/05-floral/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/05-floral/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/05-floral/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/05-floral/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/05-floral/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/05-floral/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/05-floral/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/05-floral/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "06-black-suit",
+      "portraitId": "portrait-06-black-suit",
+      "sheet": "sheets/06-black-suit.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/06-black-suit/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/06-black-suit/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/06-black-suit/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/06-black-suit/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/06-black-suit/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/06-black-suit/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/06-black-suit/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/06-black-suit/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/06-black-suit/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/06-black-suit/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/06-black-suit/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/06-black-suit/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "07-purple",
+      "portraitId": "portrait-07-purple",
+      "sheet": "sheets/07-purple.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/07-purple/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/07-purple/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/07-purple/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/07-purple/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/07-purple/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/07-purple/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/07-purple/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/07-purple/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/07-purple/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/07-purple/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/07-purple/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/07-purple/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "08-blue-shirt",
+      "portraitId": "portrait-08-blue-shirt",
+      "sheet": "sheets/08-blue-shirt.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/08-blue-shirt/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/08-blue-shirt/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/08-blue-shirt/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/08-blue-shirt/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/08-blue-shirt/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/08-blue-shirt/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/08-blue-shirt/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/08-blue-shirt/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/08-blue-shirt/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/08-blue-shirt/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/08-blue-shirt/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/08-blue-shirt/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "09-long-hair-beard",
+      "portraitId": "portrait-09-long-hair-beard",
+      "sheet": "sheets/09-long-hair-beard.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/09-long-hair-beard/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/09-long-hair-beard/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/09-long-hair-beard/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/09-long-hair-beard/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/09-long-hair-beard/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/09-long-hair-beard/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/09-long-hair-beard/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/09-long-hair-beard/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/09-long-hair-beard/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/09-long-hair-beard/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/09-long-hair-beard/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/09-long-hair-beard/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "10-dark-jacket",
+      "portraitId": "portrait-10-dark-jacket",
+      "sheet": "sheets/10-dark-jacket.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/10-dark-jacket/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/10-dark-jacket/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/10-dark-jacket/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/10-dark-jacket/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/10-dark-jacket/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/10-dark-jacket/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/10-dark-jacket/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/10-dark-jacket/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/10-dark-jacket/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/10-dark-jacket/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/10-dark-jacket/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/10-dark-jacket/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "11-black-shirt-glasses",
+      "portraitId": "portrait-11-black-shirt-glasses",
+      "sheet": "sheets/11-black-shirt-glasses.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/11-black-shirt-glasses/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/11-black-shirt-glasses/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/11-black-shirt-glasses/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/11-black-shirt-glasses/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/11-black-shirt-glasses/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/11-black-shirt-glasses/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/11-black-shirt-glasses/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/11-black-shirt-glasses/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/11-black-shirt-glasses/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/11-black-shirt-glasses/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/11-black-shirt-glasses/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/11-black-shirt-glasses/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    },
+    {
+      "id": "12-blue-polo",
+      "portraitId": "portrait-12-blue-polo",
+      "sheet": "sheets/12-blue-polo.png",
+      "frames": [
+        {
+          "direction": "down",
+          "pose": "idle",
+          "index": 0,
+          "file": "frames/12-blue-polo/down-idle.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-a",
+          "index": 1,
+          "file": "frames/12-blue-polo/down-step-a.png"
+        },
+        {
+          "direction": "down",
+          "pose": "step-b",
+          "index": 2,
+          "file": "frames/12-blue-polo/down-step-b.png"
+        },
+        {
+          "direction": "left",
+          "pose": "idle",
+          "index": 3,
+          "file": "frames/12-blue-polo/left-idle.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-a",
+          "index": 4,
+          "file": "frames/12-blue-polo/left-step-a.png"
+        },
+        {
+          "direction": "left",
+          "pose": "step-b",
+          "index": 5,
+          "file": "frames/12-blue-polo/left-step-b.png"
+        },
+        {
+          "direction": "right",
+          "pose": "idle",
+          "index": 6,
+          "file": "frames/12-blue-polo/right-idle.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-a",
+          "index": 7,
+          "file": "frames/12-blue-polo/right-step-a.png"
+        },
+        {
+          "direction": "right",
+          "pose": "step-b",
+          "index": 8,
+          "file": "frames/12-blue-polo/right-step-b.png"
+        },
+        {
+          "direction": "up",
+          "pose": "idle",
+          "index": 9,
+          "file": "frames/12-blue-polo/up-idle.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-a",
+          "index": 10,
+          "file": "frames/12-blue-polo/up-step-a.png"
+        },
+        {
+          "direction": "up",
+          "pose": "step-b",
+          "index": 11,
+          "file": "frames/12-blue-polo/up-step-b.png"
+        }
+      ],
+      "animations": {
+        "down": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "frameRate": 6
+        },
+        "left": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            3,
+            5
+          ],
+          "frameRate": 6
+        },
+        "right": {
+          "idle": 6,
+          "walk": [
+            6,
+            7,
+            6,
+            8
+          ],
+          "frameRate": 6
+        },
+        "up": {
+          "idle": 9,
+          "walk": [
+            9,
+            10,
+            9,
+            11
+          ],
+          "frameRate": 6
+        }
+      }
+    }
+  ]
+}

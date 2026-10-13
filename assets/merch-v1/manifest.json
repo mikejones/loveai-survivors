@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "id": "chocolate-bar",
+      "file": "chocolate-bar.png",
+      "width": 2172,
+      "height": 724
+    },
+    {
+      "id": "blue-cap",
+      "file": "blue-cap.png",
+      "width": 1303,
+      "height": 1207
+    },
+    {
+      "id": "sage-cap",
+      "file": "sage-cap.png",
+      "width": 1350,
+      "height": 1165
+    },
+    {
+      "id": "dog-companion",
+      "file": "dog-black-tan.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "frameWidth": 512,
+      "frameHeight": 512,
+      "animations": {
+        "left": {
+          "idle": 0,
+          "walk": [
+            0,
+            1,
+            2,
+            1
+          ]
+        },
+        "right": {
+          "idle": 3,
+          "walk": [
+            3,
+            4,
+            5,
+            4
+          ]
+        }
+      },
+      "colour": "black-and-tan"
+    }
+  ]
+}

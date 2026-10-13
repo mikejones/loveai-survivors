@@ -1,0 +1,26 @@
+{
+  "square-planter": {
+    "x": 46,
+    "y": 391,
+    "width": 251,
+    "height": 294
+  },
+  "long-planter": {
+    "x": 349,
+    "y": 454,
+    "width": 363,
+    "height": 213
+  },
+  "glass-partition": {
+    "x": 780,
+    "y": 750,
+    "width": 362,
+    "height": 242
+  },
+  "event-sign": {
+    "x": 1189,
+    "y": 722,
+    "width": 174,
+    "height": 284
+  }
+}

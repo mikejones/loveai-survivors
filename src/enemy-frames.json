@@ -1,0 +1,164 @@
+{
+  "ghost-idle": {
+    "x": 66,
+    "y": 111,
+    "width": 217,
+    "height": 217,
+    "region": {
+      "left": 0,
+      "top": 0,
+      "right": 314,
+      "bottom": 365
+    },
+    "opaqueBounds": [
+      68,
+      113,
+      281,
+      326
+    ]
+  },
+  "ghost-left": {
+    "x": 343,
+    "y": 117,
+    "width": 257,
+    "height": 205,
+    "region": {
+      "left": 314,
+      "top": 0,
+      "right": 627,
+      "bottom": 365
+    },
+    "opaqueBounds": [
+      345,
+      119,
+      598,
+      320
+    ]
+  },
+  "ghost-right": {
+    "x": 655,
+    "y": 117,
+    "width": 247,
+    "height": 218,
+    "region": {
+      "left": 627,
+      "top": 0,
+      "right": 940,
+      "bottom": 365
+    },
+    "opaqueBounds": [
+      657,
+      119,
+      900,
+      333
+    ]
+  },
+  "ghost-hurt": {
+    "x": 973,
+    "y": 91,
+    "width": 238,
+    "height": 255,
+    "region": {
+      "left": 940,
+      "top": 0,
+      "right": 1254,
+      "bottom": 365
+    },
+    "opaqueBounds": [
+      975,
+      93,
+      1209,
+      344
+    ]
+  },
+  "orange-idle": {
+    "x": 63,
+    "y": 404,
+    "width": 222,
+    "height": 211,
+    "region": {
+      "left": 0,
+      "top": 365,
+      "right": 314,
+      "bottom": 655
+    },
+    "opaqueBounds": [
+      65,
+      406,
+      283,
+      613
+    ]
+  },
+  "orange-left": {
+    "x": 354,
+    "y": 404,
+    "width": 240,
+    "height": 221,
+    "region": {
+      "left": 314,
+      "top": 365,
+      "right": 627,
+      "bottom": 655
+    },
+    "opaqueBounds": [
+      356,
+      406,
+      592,
+      623
+    ]
+  },
+  "orange-right": {
+    "x": 666,
+    "y": 404,
+    "width": 236,
+    "height": 221,
+    "region": {
+      "left": 627,
+      "top": 365,
+      "right": 940,
+      "bottom": 655
+    },
+    "opaqueBounds": [
+      668,
+      406,
+      900,
+      623
+    ]
+  },
+  "orange-hurt": {
+    "x": 980,
+    "y": 381,
+    "width": 216,
+    "height": 245,
+    "region": {
+      "left": 940,
+      "top": 365,
+      "right": 1254,
+      "bottom": 655
+    },
+    "opaqueBounds": [
+      982,
+      383,
+      1194,
+      624
+    ]
+  },
+  "eye-idle": {
+    "x": 971,
+    "y": 699,
+    "width": 215,
+    "height": 218,
+    "region": {
+      "left": 941,
+      "top": 655,
+      "right": 1254,
+      "bottom": 950
+    },
+    "opaqueBounds": [
+      973,
+      701,
+      1184,
+      915
+    ]
+  }
+}

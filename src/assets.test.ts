@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync,existsSync} from 'node:fs';
+import art from '../assets/generated-v1/manifest.json';import roster from '../assets/playable-characters-v1/manifest.json';import merch from '../assets/merch-v1/manifest.json';
+function dimensions(path:string){const b=readFileSync(path);return[b.readUInt32BE(16),b.readUInt32BE(20)];}
+test('all twelve playable sheets have correct grid and matching portraits',()=>{assert.equal(roster.characters.length,12);for(const c of roster.characters){assert.deepEqual(dimensions(`assets/playable-characters-v1/${c.sheet}`),[1152,1536]);assert.ok(art.files.some(f=>f.id===c.portraitId));for(const a of Object.values(c.animations)){assert.ok(a.walk.every(i=>i>=0&&i<12));}}assert.ok(!roster.characters[3].animations.left.walk.includes(5));});
+test('dog uses six individual frames in a 3 by 2 sheet',()=>{assert.deepEqual(dimensions('assets/merch-v1/dog-black-tan.png'),[1536,1024]);const dog=merch.files.find(f=>f.id==='dog-companion')!;assert.deepEqual(dog.animations!.left.walk,[0,1,2,1]);assert.deepEqual(dog.animations!.right.walk,[3,4,5,4]);});
+test('every runtime asset is available',()=>{for(const f of art.files)assert.ok(existsSync(`assets/generated-v1/${f.file}`));for(const f of merch.files)assert.ok(existsSync(`assets/merch-v1/${f.file}`));});

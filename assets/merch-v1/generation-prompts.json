@@ -1,0 +1,19 @@
+[
+  {
+    "id": "chocolate-bar",
+    "prompt": "Convert the reference wrapped chocolate bar into ONE isolated 8-bit style game pickup sprite. Keep the long horizontal blue wrapper, orange ends, lime pixel hearts, white ghost motifs and readable primary white loveAI text. Simplify tiny sponsor lettering away at sprite scale; do not invent wording. Chunky pixel grid, limited blue orange lime white palette, black/dark pixel outline, shallow top-down RPG view compatible with loveAI Survivors office game. Whole bar fully visible centred with generous transparent margin. No photographic texture, floor, shadow, border, extra objects or UI. Genuine transparent background."
+  },
+  {
+    "id": "blue-cap",
+    "prompt": "Convert reference light blue denim baseball cap into ONE isolated 8-bit style game pickup sprite. Preserve pale blue cap silhouette curved brim and front branding: white love over AI beside lime pixel heart and small black-and-white pixel dachshund motif. Crisp chunky pixels limited palette dark outline, top-down RPG item icon slightly viewed from front so branding readable. Whole cap centred with generous transparent padding. No fabric photograph texture no backdrop no shadow no text outside cap no UI. Genuine transparent background."
+  },
+  {
+    "id": "sage-cap",
+    "prompt": "Convert reference sage green baseball cap into ONE isolated 8-bit style game pickup sprite. Preserve muted sage cap curved brim front branding white love over AI beside lime pixel heart. Crisp chunky pixels limited palette dark outline, same scale and camera as a classic top-down RPG pickup icon slightly viewed from front. Whole cap centred generous transparent padding. No dog on this cap. No photographic texture backdrop shadow border UI or lettering outside the cap. Genuine transparent background."
+  },
+  {
+    "id": "dog-companion",
+    "prompt": "The reference cap contains a tiny black and white dachshund motif. Extrapolate ONLY that dog into a standalone 8-bit pixel-art dog companion sprite sheet for loveAI Survivors. Black/dark-grey elongated body, white face and pale muzzle, black floppy ears, short legs, friendly. No cap no logo no words. Genuine transparent background. Strict equal 3 columns by 2 rows, each cell padded. Row1 THREE poses facing LEFT: idle, walk step A, walk step B. Row2 THREE poses facing RIGHT: idle, walk step A, walk step B. Clearly point nose toward required side. Consistent proportions scale and feet baseline, chunky pixel grid and dark outline. Full dog in every frame. No additional creatures floor shadow labels grid or background.",
+    "correctionPrompt": "Edit ONLY the dog coat colours in this six-frame pixel-art dachshund sprite sheet. Make every dog a BLACK AND TAN dachshund: retain black/dark-charcoal back, body and floppy ears; change white facial areas, muzzle, eyebrows, chest accents, belly accents and paws to warm tan/caramel brown. No white fur. Preserve exact elongated body, short legs, six poses, left-facing top row and right-facing bottom row, consistent pixel style and layout. Remove any soft halo; keep genuine transparent background, hard pixel edges and no shadows. No text or extra objects."
+  }
+]

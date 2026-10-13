@@ -1,0 +1,538 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "id": "portrait-01-blond-tie",
+      "file": "characters/portrait-01-blond-tie.png",
+      "width": 362,
+      "height": 382,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 0,
+        "width": 362,
+        "height": 382
+      }
+    },
+    {
+      "id": "portrait-02-navy-blazer",
+      "file": "characters/portrait-02-navy-blazer.png",
+      "width": 362,
+      "height": 382,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 362,
+        "top": 0,
+        "width": 362,
+        "height": 382
+      }
+    },
+    {
+      "id": "portrait-03-plaid",
+      "file": "characters/portrait-03-plaid.png",
+      "width": 362,
+      "height": 382,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 724,
+        "top": 0,
+        "width": 362,
+        "height": 382
+      }
+    },
+    {
+      "id": "portrait-04-bald-glasses",
+      "file": "characters/portrait-04-bald-glasses.png",
+      "width": 362,
+      "height": 382,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 1086,
+        "top": 0,
+        "width": 362,
+        "height": 382
+      }
+    },
+    {
+      "id": "portrait-05-floral",
+      "file": "characters/portrait-05-floral.png",
+      "width": 362,
+      "height": 355,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 382,
+        "width": 362,
+        "height": 355
+      }
+    },
+    {
+      "id": "portrait-06-black-suit",
+      "file": "characters/portrait-06-black-suit.png",
+      "width": 362,
+      "height": 355,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 362,
+        "top": 382,
+        "width": 362,
+        "height": 355
+      }
+    },
+    {
+      "id": "portrait-07-purple",
+      "file": "characters/portrait-07-purple.png",
+      "width": 362,
+      "height": 355,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 724,
+        "top": 382,
+        "width": 362,
+        "height": 355
+      }
+    },
+    {
+      "id": "portrait-08-blue-shirt",
+      "file": "characters/portrait-08-blue-shirt.png",
+      "width": 362,
+      "height": 355,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 1086,
+        "top": 382,
+        "width": 362,
+        "height": 355
+      }
+    },
+    {
+      "id": "portrait-09-long-hair-beard",
+      "file": "characters/portrait-09-long-hair-beard.png",
+      "width": 362,
+      "height": 349,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 737,
+        "width": 362,
+        "height": 349
+      }
+    },
+    {
+      "id": "portrait-10-dark-jacket",
+      "file": "characters/portrait-10-dark-jacket.png",
+      "width": 362,
+      "height": 349,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 362,
+        "top": 737,
+        "width": 362,
+        "height": 349
+      }
+    },
+    {
+      "id": "portrait-11-black-shirt-glasses",
+      "file": "characters/portrait-11-black-shirt-glasses.png",
+      "width": 362,
+      "height": 349,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 724,
+        "top": 737,
+        "width": 362,
+        "height": 349
+      }
+    },
+    {
+      "id": "portrait-12-blue-polo",
+      "file": "characters/portrait-12-blue-polo.png",
+      "width": 362,
+      "height": 349,
+      "sourceSheet": "sheets/characters.png",
+      "sourceRect": {
+        "left": 1086,
+        "top": 737,
+        "width": 362,
+        "height": 349
+      }
+    },
+    {
+      "id": "ghost-idle",
+      "file": "enemies-items/ghost-idle.png",
+      "width": 314,
+      "height": 314,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 0,
+        "width": 314,
+        "height": 314
+      }
+    },
+    {
+      "id": "ghost-left",
+      "file": "enemies-items/ghost-left.png",
+      "width": 313,
+      "height": 314,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 314,
+        "top": 0,
+        "width": 313,
+        "height": 314
+      }
+    },
+    {
+      "id": "ghost-right",
+      "file": "enemies-items/ghost-right.png",
+      "width": 314,
+      "height": 314,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 627,
+        "top": 0,
+        "width": 314,
+        "height": 314
+      }
+    },
+    {
+      "id": "ghost-hurt",
+      "file": "enemies-items/ghost-hurt.png",
+      "width": 313,
+      "height": 314,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 941,
+        "top": 0,
+        "width": 313,
+        "height": 314
+      }
+    },
+    {
+      "id": "orange-idle",
+      "file": "enemies-items/orange-idle.png",
+      "width": 314,
+      "height": 313,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 314,
+        "width": 314,
+        "height": 313
+      }
+    },
+    {
+      "id": "orange-left",
+      "file": "enemies-items/orange-left.png",
+      "width": 313,
+      "height": 313,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 314,
+        "top": 314,
+        "width": 313,
+        "height": 313
+      }
+    },
+    {
+      "id": "orange-right",
+      "file": "enemies-items/orange-right.png",
+      "width": 314,
+      "height": 313,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 627,
+        "top": 314,
+        "width": 314,
+        "height": 313
+      }
+    },
+    {
+      "id": "orange-hurt",
+      "file": "enemies-items/orange-hurt.png",
+      "width": 313,
+      "height": 313,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 941,
+        "top": 314,
+        "width": 313,
+        "height": 313
+      }
+    },
+    {
+      "id": "heart",
+      "file": "enemies-items/heart.png",
+      "width": 314,
+      "height": 314,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 627,
+        "width": 314,
+        "height": 314
+      }
+    },
+    {
+      "id": "potion",
+      "file": "enemies-items/potion.png",
+      "width": 313,
+      "height": 314,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 314,
+        "top": 627,
+        "width": 313,
+        "height": 314
+      }
+    },
+    {
+      "id": "cauldron",
+      "file": "enemies-items/cauldron.png",
+      "width": 314,
+      "height": 314,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 627,
+        "top": 627,
+        "width": 314,
+        "height": 314
+      }
+    },
+    {
+      "id": "eye",
+      "file": "enemies-items/eye.png",
+      "width": 313,
+      "height": 314,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 941,
+        "top": 627,
+        "width": 313,
+        "height": 314
+      }
+    },
+    {
+      "id": "xp-gem",
+      "file": "enemies-items/xp-gem.png",
+      "width": 314,
+      "height": 313,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 941,
+        "width": 314,
+        "height": 313
+      }
+    },
+    {
+      "id": "energy-projectile",
+      "file": "enemies-items/energy-projectile.png",
+      "width": 313,
+      "height": 313,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 314,
+        "top": 941,
+        "width": 313,
+        "height": 313
+      }
+    },
+    {
+      "id": "lightning",
+      "file": "enemies-items/lightning.png",
+      "width": 314,
+      "height": 313,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 627,
+        "top": 941,
+        "width": 314,
+        "height": 313
+      }
+    },
+    {
+      "id": "impact",
+      "file": "enemies-items/impact.png",
+      "width": 313,
+      "height": 313,
+      "sourceSheet": "sheets/enemies_items.png",
+      "sourceRect": {
+        "left": 941,
+        "top": 941,
+        "width": 313,
+        "height": 313
+      }
+    },
+    {
+      "id": "reception-desk",
+      "file": "office/reception-desk.png",
+      "width": 445,
+      "height": 380,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 0,
+        "width": 445,
+        "height": 380
+      }
+    },
+    {
+      "id": "orange-armchair",
+      "file": "office/orange-armchair.png",
+      "width": 295,
+      "height": 380,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 445,
+        "top": 0,
+        "width": 295,
+        "height": 380
+      }
+    },
+    {
+      "id": "taupe-sofa",
+      "file": "office/taupe-sofa.png",
+      "width": 370,
+      "height": 380,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 740,
+        "top": 0,
+        "width": 370,
+        "height": 380
+      }
+    },
+    {
+      "id": "cafe-table",
+      "file": "office/cafe-table.png",
+      "width": 338,
+      "height": 380,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 1110,
+        "top": 0,
+        "width": 338,
+        "height": 380
+      }
+    },
+    {
+      "id": "square-planter",
+      "file": "office/square-planter.png",
+      "width": 445,
+      "height": 340,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 380,
+        "width": 445,
+        "height": 340
+      }
+    },
+    {
+      "id": "long-planter",
+      "file": "office/long-planter.png",
+      "width": 295,
+      "height": 340,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 445,
+        "top": 380,
+        "width": 295,
+        "height": 340
+      }
+    },
+    {
+      "id": "work-desk",
+      "file": "office/work-desk.png",
+      "width": 370,
+      "height": 340,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 740,
+        "top": 380,
+        "width": 370,
+        "height": 340
+      }
+    },
+    {
+      "id": "coffee-counter",
+      "file": "office/coffee-counter.png",
+      "width": 338,
+      "height": 340,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 1110,
+        "top": 380,
+        "width": 338,
+        "height": 340
+      }
+    },
+    {
+      "id": "conference-stage",
+      "file": "office/conference-stage.png",
+      "width": 445,
+      "height": 366,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 0,
+        "top": 720,
+        "width": 445,
+        "height": 366
+      }
+    },
+    {
+      "id": "conference-chairs",
+      "file": "office/conference-chairs.png",
+      "width": 295,
+      "height": 366,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 445,
+        "top": 720,
+        "width": 295,
+        "height": 366
+      }
+    },
+    {
+      "id": "glass-partition",
+      "file": "office/glass-partition.png",
+      "width": 370,
+      "height": 366,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 740,
+        "top": 720,
+        "width": 370,
+        "height": 366
+      }
+    },
+    {
+      "id": "event-sign",
+      "file": "office/event-sign.png",
+      "width": 338,
+      "height": 366,
+      "sourceSheet": "sheets/office_props.png",
+      "sourceRect": {
+        "left": 1110,
+        "top": 720,
+        "width": 338,
+        "height": 366
+      }
+    },
+    {
+      "id": "office-st-pauls",
+      "file": "backgrounds/office-st-pauls.png",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "notes": [
+    "Generated adaptations of supplied artwork, not pixel-exact extractions. Review face likenesses before promotional release.",
+    "Portrait tokens are static busts, not full-body walking animations.",
+    "Floor is venue-inspired, not an accurate floor plan or verified window view.",
+    "Use individual PNGs; sheet spacing is not perfectly uniform.",
+    "Use nearest-neighbour sampling for small sprites. Add gameplay collisions in code, not by inferring from image pixels."
+  ]
+}

@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import roster from '../assets/playable-characters-v1/manifest.json';import {PRESENTERS} from './presenters';
+test('every playable character has one unique, complete presenter mapping',()=>{const mapped=roster.characters.map(c=>PRESENTERS[c.id]);assert.ok(mapped.every(Boolean));assert.equal(new Set(mapped.map(p=>p.name)).size,12);assert.equal(new Set(mapped.map(p=>p.sourcePortrait)).size,12);for(const p of mapped)assert.equal(p.name,`${p.firstName} ${p.surname}`);});
+test('mapping uses website artwork IDs rather than the game roster order',()=>{assert.equal(PRESENTERS['04-bald-glasses'].name,'George Malamidis');assert.equal(PRESENTERS['04-bald-glasses'].sourcePortrait,1);assert.equal(PRESENTERS['01-blond-tie'].name,'Matt Koevort');assert.equal(PRESENTERS['07-purple'].name,'Athena Peppes');assert.equal(PRESENTERS['05-floral'].name,'Gayathri Thiyagarajan');});
