@@ -1,0 +1,6 @@
+{
+  "tool": "built-in imagegen",
+  "prompts": [
+    "Edit first reference sprite sheet to update Millie using the SECOND reference portrait as her exact face and hairstyle basis: no glasses, long near-black wavy hair, short blunt bangs, silver septum ring, subtle dark lipstick. Goth outfit: black leather jacket with small silver hardware, black and dark burgundy striped shirt, fitted black trousers, chunky black boots. Cute chunky pixel-art game character consistent with original sheet. Exactly TWELVE complete separate full-body poses in THREE columns and FOUR rows, original order: down idle/down left-step/down right-step; left idle/left step A/left step B; right idle/right step A/right step B; back idle/back step A/back step B. Distinct alternating legs. Same body scale in every pose. Transparent background, generous padding between every silhouette, no fragments, no labels, no ground shadows. Preserve likeness of the supplied portrait, use it instead of the old glasses face."
+  ]
+}

@@ -10,5 +10,17 @@
     "portrait": "assets/generated-v1/characters/portrait-11-black-shirt-glasses.png",
     "sheetWidth": 1086,
     "sheetHeight": 1448
+  },
+  "10-dark-jacket": {
+    "sheet": "assets/character-edits/millie-goth/sheet.png",
+    "portrait": "assets/character-edits/millie-goth/portrait.png",
+    "sheetWidth": 1086,
+    "sheetHeight": 1448
+  },
+  "04-bald-glasses": {
+    "sheet": "assets/character-edits/george-amn/sheet.png",
+    "portrait": "assets/character-edits/george-amn/portrait.png",
+    "sheetWidth": 1254,
+    "sheetHeight": 1254
   }
 }

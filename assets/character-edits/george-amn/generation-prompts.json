@@ -1,0 +1,7 @@
+{
+  "tool": "built-in imagegen",
+  "prompts": [
+    "Edit first reference character sheet: preserve George's bald head, black glasses, face and likeness. Change all outfits to blue denim jeans, black crew-neck band T-shirt, black sneakers. On front chest put a simplified white pixel-art AMN tree/roots logo inspired by SECOND reference logo: recognisable A M N branches and two tiny tree crowns, readable at small size. No extra props. Exactly12 separate full-body poses in3 columns4 rows with original exact directions and walking phases INCLUDING row2 col3 facing RIGHT as in original (its manifest corrects it). Row1 front idle and two alternatingsteps; row2 leftidle leftstepA RIGHTstepB; row3 rightidle rightstepA rightstepB; row4 backidle two steps. Preserve original positions and scale, transparent background with generous margins, no text labels no shadows. Jeans and black T-shirt visible in every view.",
+    "Edit this pixel-art portrait of George, bald man with black glasses. Preserve his exact head face and expression. Replace gray collared jacket with BLACK crew-neck rock band T-shirt, with simplified WHITE AMN branching tree/roots logo inspired by second reference on chest. Crisp pixel-art white branch letters A M N, subtle tree crown motif, not a solid white rectangle. Transparent background. Keep same bust portrait crop, scale and black outlines. No other changes."
+  ]
+}
