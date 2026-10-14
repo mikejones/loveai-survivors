@@ -1,8 +1,14 @@
 {
- "12-blue-polo":{
-  "sheet":"assets/character-edits/stuart-ponytail/sheet-v3.png",
-  "portrait":"assets/character-edits/stuart-ponytail/portrait.png",
-  "sheetWidth":1086,
-  "sheetHeight":1448
- }
+  "12-blue-polo": {
+    "sheet": "assets/character-edits/stuart-ponytail/sheet-v3.png",
+    "portrait": "assets/character-edits/stuart-ponytail/portrait.png",
+    "sheetWidth": 1086,
+    "sheetHeight": 1448
+  },
+  "11-black-shirt-glasses": {
+    "sheet": "assets/character-edits/adam-short-hair/sheet.png",
+    "portrait": "assets/generated-v1/characters/portrait-11-black-shirt-glasses.png",
+    "sheetWidth": 1086,
+    "sheetHeight": 1448
+  }
 }

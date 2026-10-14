@@ -1,0 +1,2 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import atlas from './boss-frames.json';
+test('boss frames preserve complete measured poses with margins and no adjacent silhouettes',()=>{assert.equal(atlas.frames.length,4);atlas.frames.forEach((f,i)=>{const [x,y,r,b]=f.opaqueBounds;assert.ok(f.x<x&&f.y<y);assert.ok(f.x+f.width>r&&f.y+f.height>b);assert.ok(f.originX>0&&f.originX<1);assert.ok(Math.abs(f.originY*f.height-(b-f.y))<.01);if(i<3)assert.ok(f.x+f.width<atlas.frames[i+1].x);});});

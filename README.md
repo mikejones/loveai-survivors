@@ -1,6 +1,6 @@
 # loveAI Survivors
 
-A client-side Phaser + TypeScript + Vite conference survival game set at the loveAI office venue. Choose any of 12 supplied characters and survive **three minutes of active play**. All characters start with identical abilities. Original artwork is preserved in `assets/`.
+A client-side Phaser + TypeScript + Vite conference survival game set at the loveAI office venue. Choose any of 12 supplied characters and survive **three minutes of active play**. Characters start with one of four weapon/perk archetypes. Original artwork is preserved in `assets/`.
 
 ## Run
 
@@ -43,7 +43,7 @@ You can link directly to that folder or embed it in an iframe with a useful heig
 ## Play
 
 - Eye: targeted projectiles → piercing beams at level 5.
-- Potion satellites: orbiting damage → four potions at level 5.
+- Exploding Potions: thrown splash damage and slowing puddles → three throws with Chain Reaction secondary blasts at level 5.
 - Lightning: one strike → six-target chains at level 5.
 - Hearts and chocolate heal; chocolate restores 25% of maximum health, capped.
 - Potions boost damage for 10 seconds.
@@ -62,7 +62,7 @@ Movement uses a compact foot collider, independent horizontal/vertical sliding a
 
 ## Verification
 
-- Twenty-six automated tests cover per-frame alignment plus asset presence and frame layouts, the character 04 correction, dog animation indices, capped healing, collisions, reachable navigation cells, maxed upgrade eligibility and queued XP arithmetic.
+- Thirty-nine automated tests cover per-frame alignment plus asset presence and frame layouts, the character 04 correction, dog animation indices, capped healing, collisions, reachable navigation cells, maxed upgrade eligibility and queued XP arithmetic.
 - `http://localhost:5173/?qa` enables an explicit development-only QA panel. **Run checks** exercises the actual scene in the browser with accelerated fixed simulation steps; it reports 21 checks for pickups, shield hits/refresh/expiry, dog refresh/following/XP/combat/expiry, paused timers, upgrades, clean restart, defeat, victory and evolved weapons under a full swarm. QA results do not set a personal best. This panel is absent from production builds.
 - Browser UI checks exercised selection, character 04's left/right movement, Escape pause, automatic attacks, and pointer steering at a 390 × 844 phone viewport. Desktop layout was checked at 1280 × 900. The phone camera and HUD were corrected after inspection. No missing runtime assets or console errors were observed.
 - A 260-enemy automated simulation took approximately 10 ms for 60 update steps on the development machine. A rendered late wave reported approximately 119 FPS on that machine; this is not a guarantee for other devices.
@@ -93,3 +93,17 @@ Stuart’s ponytail edit is selected via `src/character-art-overrides.json`. His
 Runs now begin at 70/100 health. The eye enemy appears from 120 seconds, is larger than the ghosts and oranges, has eight times base enemy health and deals 18 contact damage. Its arrival chance and six-eye limit are configurable in `EYE_ENEMY`.
 
 Results include a LinkedIn sharing panel with editable post text and a downloadable 1200 × 630 score card showing the selected presenter. Players copy the text and attach the card themselves in LinkedIn; the public conference URL is shared rather than a localhost address. Stuart’s `sheet-v3.png` alternates the two down-walking leg poses while retaining his ponytail.
+
+Gameplay design pass: Standard starts at 100 health; Challenge starts at 70 with 20% shorter wave intervals. Presenters cycle through Eye, Potion, Lightning and Fast collector archetypes, configured in `src/run-design.ts`. Six scheduled phases include a coffee-break breather. Orange enemies periodically accelerate; eyes telegraph their direction before charging. Upgrade offers favour owned weapons and include one reroll per run. These timings and loadouts need human playtesting before final balance decisions.
+
+The Hallucination Engine arrives at 2:00 with 8,000 health in Standard or 12,000 in Challenge. It is a single animated boss with no copies. It telegraphs a red charge every three seconds, with a 0.7-second warning and faster attacks below half health. Its core opens for 0.8 seconds after a charge; armour otherwise passes 8% damage. Defeating it awards 500 points. Runs end at exactly three minutes of active play: defeat the boss and survive to win; otherwise the timeout is a defeat. Pause and upgrade choices stop active time.
+
+Orange enemies appear after 25 seconds, eyes after 90 seconds. Later phases have faster spawning and larger batches. The rescue blue cap appears at 1:50. The dog fetches nearby XP, distracts ordinary enemies with its bark, and bites exposed boss cores for bonus damage. Four measured walking poses use constant scale and foot anchoring. Settings are in `src/boss.ts`, `src/run-design.ts` and `src/config.ts`. Balance still needs human playtesting.
+
+Eye and lightning targeting prioritise a living boss within weapon range; otherwise they use nearest-enemy ordering. Characters without the Eye weapon no longer fire eye projectiles. Standard and Challenge personal bests are stored separately under `loveai-best-standard` and `loveai-best-challenge`. The legacy mixed record is retained but not migrated because its mode is unknown. Menu, results and score-sharing text identify the selected difficulty.
+
+UI polish (13 October 2026): reconfirmed the live loveAI colour tokens, National 2/Inter font stacks and pill buttons. Shared presentation rules unify selection, overlays, upgrade cards, HUD, results and score sharing; desktop and 390 × 844 browser layouts were inspected. Fonts use the website stacks with local fallbacks. Gameplay danger indicators retain pink/red for readability.
+
+Boss crop repair: `scripts/measure-boss-frames.py` measures the four complete connected silhouettes instead of assuming equal-width sheet cells. Atlas rectangles include a two-pixel margin and measured torso/foot origins, preserving the source PNG. The development QA command `bossGallery` shows all four corrected poses.
+
+Exploding Potions tuning is in `src/potion-weapon.ts`. Potions arc to target positions over 0.45 seconds, favour the boss, damage enemies in their splash radius and leave 2.2-second slowing puddles. Level five adds up to three secondary blasts per impact, without recursive explosions. Adam’s short-hair sheet is in `assets/character-edits/adam-short-hair/`; source artwork and his original portrait are retained.

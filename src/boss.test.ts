@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {BOSS,bossAttack,runScore} from './boss';import {scorePost} from './score-sharing';
+test('boss arrives with one minute remaining and uses repeated warned charges',()=>{assert.equal(BOSS.after,120);assert.equal(bossAttack(0),'charge');assert.equal(bossAttack(1),'charge');assert.equal(bossAttack(2),'charge');assert.ok(BOSS.warning>=.6);});
+test('boss bonus is awarded once in score and appears in post text',()=>{assert.equal(runScore(10,5,180,true)-runScore(10,5,180,false),500);assert.match(scorePost({score:1085,seconds:180,kills:10,level:5,character:'Stuart Caborn',victory:true,bossBonus:500}),/Boss defeated \(\+500\)/);});
+
+test('Engine resists burst damage outside its short core window',async()=>{const {bossDamage,bossVulnerable}=await import('./boss');assert.equal(bossDamage(100,3),8);assert.equal(bossDamage(100,1),100);assert.equal(bossVulnerable(0),false);assert.ok(BOSS.health>=8000);assert.ok(BOSS.challengeHealth>BOSS.health);});

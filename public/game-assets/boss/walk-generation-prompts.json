@@ -1,0 +1,4 @@
+{
+  "tool": "built-in imagegen",
+  "prompt": "Create a sprite sheet using the referenced exact haunted CRT jack-o-lantern computer boss design. Transparent background. Exactly four equal cells in ONE HORIZONTAL ROW. Each cell full-body same character at same scale and aligned feet, generous transparent padding around each. Four distinct walking animation phases: left foot forward/right arm back, feet together, right foot forward/left arm back, feet together alternate cable swing. Preserve pumpkin screen face, purple casing, bright green processor core, two cable claw arms, two metal feet, black pixel outlines. Crisp chunky 8-bit pixel art, clear distinct leg and claw poses. No ground shadows no labels no text no additional copies outside four cells. Sheet wide 4:1 layout."
+}

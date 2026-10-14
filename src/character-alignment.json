@@ -2181,220 +2181,220 @@
   ],
   "11-black-shirt-glasses": [
     {
-      "x": 80,
-      "y": 293,
-      "bounds": [
-        2,
-        2,
-        156,
-        293
-      ],
-      "source": {
-        "x": 160,
-        "y": 52,
-        "width": 158,
-        "height": 295
-      },
-      "frameWidth": 158,
-      "frameHeight": 295
-    },
-    {
-      "x": 75,
-      "y": 304,
-      "bounds": [
-        2,
-        2,
-        151,
-        304
-      ],
-      "source": {
-        "x": 467,
-        "y": 52,
-        "width": 153,
-        "height": 306
-      },
-      "frameWidth": 153,
-      "frameHeight": 306
-    },
-    {
       "x": 81,
-      "y": 303,
+      "y": 294,
+      "bounds": [
+        2,
+        2,
+        157,
+        294
+      ],
+      "source": {
+        "x": 159,
+        "y": 52,
+        "width": 159,
+        "height": 296
+      },
+      "frameWidth": 159,
+      "frameHeight": 296
+    },
+    {
+      "x": 76,
+      "y": 304,
       "bounds": [
         2,
         2,
         154,
-        303
+        304
       ],
       "source": {
-        "x": 766,
-        "y": 53,
+        "x": 466,
+        "y": 52,
         "width": 156,
-        "height": 305
+        "height": 306
       },
       "frameWidth": 156,
-      "frameHeight": 305
+      "frameHeight": 306
     },
     {
-      "x": 77,
-      "y": 296,
+      "x": 83,
+      "y": 305,
+      "bounds": [
+        2,
+        2,
+        157,
+        305
+      ],
+      "source": {
+        "x": 764,
+        "y": 52,
+        "width": 159,
+        "height": 307
+      },
+      "frameWidth": 159,
+      "frameHeight": 307
+    },
+    {
+      "x": 79,
+      "y": 295,
       "bounds": [
         2,
         2,
         132,
-        296
+        295
       ],
       "source": {
-        "x": 165,
-        "y": 397,
+        "x": 163,
+        "y": 398,
         "width": 134,
-        "height": 298
+        "height": 297
       },
       "frameWidth": 134,
-      "frameHeight": 298
+      "frameHeight": 297
     },
     {
-      "x": 87,
-      "y": 298,
-      "bounds": [
-        2,
-        2,
-        151,
-        298
-      ],
-      "source": {
-        "x": 465,
-        "y": 397,
-        "width": 153,
-        "height": 300
-      },
-      "frameWidth": 153,
-      "frameHeight": 300
-    },
-    {
-      "x": 93,
-      "y": 298,
-      "bounds": [
-        2,
-        2,
-        156,
-        298
-      ],
-      "source": {
-        "x": 767,
-        "y": 397,
-        "width": 158,
-        "height": 300
-      },
-      "frameWidth": 158,
-      "frameHeight": 300
-    },
-    {
-      "x": 58,
-      "y": 298,
-      "bounds": [
-        2,
-        2,
-        133,
-        298
-      ],
-      "source": {
-        "x": 178,
-        "y": 738,
-        "width": 135,
-        "height": 300
-      },
-      "frameWidth": 135,
-      "frameHeight": 300
-    },
-    {
-      "x": 69,
-      "y": 300,
+      "x": 90,
+      "y": 299,
       "bounds": [
         2,
         2,
         155,
-        300
+        299
       ],
       "source": {
-        "x": 464,
-        "y": 738,
+        "x": 462,
+        "y": 398,
         "width": 157,
-        "height": 302
+        "height": 301
       },
       "frameWidth": 157,
-      "frameHeight": 302
+      "frameHeight": 301
     },
     {
-      "x": 66,
-      "y": 298,
+      "x": 97,
+      "y": 299,
       "bounds": [
         2,
         2,
-        152,
-        298
+        162,
+        299
       ],
       "source": {
-        "x": 775,
-        "y": 738,
-        "width": 154,
-        "height": 300
+        "x": 763,
+        "y": 398,
+        "width": 164,
+        "height": 301
       },
-      "frameWidth": 154,
-      "frameHeight": 300
+      "frameWidth": 164,
+      "frameHeight": 301
     },
     {
-      "x": 80,
-      "y": 296,
+      "x": 55,
+      "y": 301,
       "bounds": [
         2,
         2,
-        159,
-        296
+        135,
+        301
       ],
       "source": {
-        "x": 159,
-        "y": 1079,
-        "width": 161,
-        "height": 298
+        "x": 181,
+        "y": 736,
+        "width": 137,
+        "height": 303
       },
-      "frameWidth": 161,
-      "frameHeight": 298
+      "frameWidth": 137,
+      "frameHeight": 303
     },
     {
-      "x": 79,
-      "y": 304,
-      "bounds": [
-        2,
-        2,
-        158,
-        304
-      ],
-      "source": {
-        "x": 463,
-        "y": 1079,
-        "width": 160,
-        "height": 306
-      },
-      "frameWidth": 160,
-      "frameHeight": 306
-    },
-    {
-      "x": 82,
-      "y": 304,
+      "x": 70,
+      "y": 305,
       "bounds": [
         2,
         2,
         160,
-        304
+        305
       ],
       "source": {
-        "x": 764,
-        "y": 1079,
+        "x": 462,
+        "y": 736,
         "width": 162,
-        "height": 306
+        "height": 307
       },
       "frameWidth": 162,
-      "frameHeight": 306
+      "frameHeight": 307
+    },
+    {
+      "x": 66,
+      "y": 302,
+      "bounds": [
+        2,
+        2,
+        155,
+        302
+      ],
+      "source": {
+        "x": 774,
+        "y": 736,
+        "width": 157,
+        "height": 304
+      },
+      "frameWidth": 157,
+      "frameHeight": 304
+    },
+    {
+      "x": 82,
+      "y": 299,
+      "bounds": [
+        2,
+        2,
+        163,
+        299
+      ],
+      "source": {
+        "x": 156,
+        "y": 1080,
+        "width": 165,
+        "height": 301
+      },
+      "frameWidth": 165,
+      "frameHeight": 301
+    },
+    {
+      "x": 82,
+      "y": 306,
+      "bounds": [
+        2,
+        2,
+        163,
+        306
+      ],
+      "source": {
+        "x": 460,
+        "y": 1080,
+        "width": 165,
+        "height": 308
+      },
+      "frameWidth": 165,
+      "frameHeight": 308
+    },
+    {
+      "x": 85,
+      "y": 306,
+      "bounds": [
+        2,
+        2,
+        166,
+        306
+      ],
+      "source": {
+        "x": 761,
+        "y": 1080,
+        "width": 168,
+        "height": 308
+      },
+      "frameWidth": 168,
+      "frameHeight": 308
     }
   ],
   "12-blue-polo": [

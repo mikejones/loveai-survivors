@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {startingLevels,loadout,wave,upgradeChoices} from './run-design';
+test('all presenters receive one starting weapon and a documented archetype',()=>{for(let i=0;i<12;i++){const l=startingLevels(i);assert.equal(['eye','orbit','lightning'].filter(k=>l[k as keyof typeof l]>0).length,1);assert.ok(loadout(i).perk);}});
+test('wave schedule includes a breather and a stronger finale',()=>{assert.equal(wave(65).name,'COFFEE BREAK');assert.ok(wave(65).interval>wave(45).interval);assert.equal(wave(150).count,4);});
+test('weighted offers stay unique and exclude capped upgrades',()=>{const l=startingLevels(0);l.eye=5;const offers=upgradeChoices(l,()=>0);assert.equal(new Set(offers.map(o=>o.id)).size,3);assert.ok(!offers.some(o=>o.id==='eye'));});

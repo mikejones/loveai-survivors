@@ -1,0 +1,4 @@
+{
+  "tool": "built-in imagegen",
+  "prompt": "Edit ONLY the hairstyle of Adam, the black-shirt-and-glasses pixel character in this transparent 3-column by 4-row sprite sheet. In ALL 12 poses give him neat short dark brown hair. Remove any ponytail, tied hair, rear hair tuft or hair extending down the neck; side and rear views must have a short clean neckline. Preserve his face, glasses, black T-shirt, blue jeans, shoes, exact pose order, walking leg phases, character scale and transparent margins. Preserve complete silhouettes and all twelve separate poses with no touching neighbours. No other changes."
+}
